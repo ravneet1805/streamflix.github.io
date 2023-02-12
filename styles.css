@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300&family=Ubuntu:wght@300;500&family=Volkhov:wght@700&display=swap');
+
+
+body{
+    background-color: #0a1128;
+
+
+}
+
+.navbar{
+    position:absolute;
+    top: -50px;
+    width: 100%;
+    z-index: 999;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.0)), none;
+}
+
+#carouselExampleInterval{
+    position: absolute;
+    width: 100%;
+    top:0;
+
+}
+
+.carousel_cap{
+    margin-bottom: 80px;
+    margin-left: -80px;
+}
+
+.carousel_cap h1{
+    font-size: 60px;
+    font-family: 'Volkhov', serif;
+}
+
+.button{
+    background-color: #0daadb;
+    border: 0;
+    color: black;
+}
+.signup_btn{
+    background-color: hsl(194, 89%, 45%);
+}
+
+.transparent-input{
+    background-color: transparent;
+    
+}
+
+.popular{
+    margin-top: 830px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.row{
+    margin-top: 30px;
+    margin-left: -60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.row img:hover{
+    opacity: 0.7;
+}
+
+.action{
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.horror{
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.comedy{
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.anime{
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.download{
+    display: flex;
+    color: white;
+    background: rgb(13,170,219);
+    background: linear-gradient(360deg, rgba(13,170,219,1) 0%, rgba(10,17,40,1) 100%);
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.downtext{
+    font-family: inherit;
+    padding: 160px 200px;
+}
+.downtext h5{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.downtext h2{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.downtext h6{
+    color: rgb(201, 200, 200);
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.downimg{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+footer{
+    color: white;
+}
+
+.trail h5{
+    font-family:Helvetica;
+    font-size: 35px;
+    justify-content: center;
+}
+
+.sub{
+    background-color: #0daadb;
+}
