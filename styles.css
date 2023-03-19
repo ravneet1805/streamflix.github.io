@@ -3,8 +3,12 @@
 
 body{
     background-color: #0a1128;
+    position:relative;
 
+}
 
+html,body{
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -13,6 +17,15 @@ body{
     width: 100%;
     z-index: 999;
     background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.0)), none;
+}
+
+@media (max-width: 500px){
+    .dropdown-menu{
+        
+        background-color:black;
+        
+    }
+
 }
 
 #carouselExampleInterval{
@@ -37,6 +50,31 @@ body{
     border: 0;
     color: black;
 }
+
+@media (max-width:500px){
+
+    .cimg{
+        height: 700px;
+    }
+
+    .carousel_cap{
+        margin-bottom:-20px;
+        margin-left:20px;
+    }
+    .carousel_cap h1{
+        font-size: 30px;
+    }
+    
+    .button{
+        background-color: #0daadb;
+        border: 0;
+        color: black;
+        margin-left: 35px;
+    }
+
+
+}
+
 .signup_btn{
     background-color: hsl(194, 89%, 45%);
 }
@@ -47,10 +85,10 @@ body{
 }
 
 .popular{
-    margin-top: 830px;
+    margin-top: 800px;
     font-family: 'Raleway', sans-serif;
     color: white;
-    margin-left: 100px;
+    margin-left:100px;
 }
 
 .row{
@@ -92,6 +130,12 @@ body{
     margin-left: 100px;
 }
 
+@media (max-width: 500px){
+    .films{
+        margin-left: -40px;
+    }
+}
+
 .download{
     display: flex;
     color: white;
@@ -129,9 +173,16 @@ body{
     margin-right: 80px;
 }
 
+@media (max-width: 500px){
+    .downtext{
+        margin-left: -120px;
+    }
+}
+
 footer{
     color: white;
 }
+
 
 .trail h5{
     font-family:Helvetica;
