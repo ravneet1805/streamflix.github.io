@@ -3,20 +3,21 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>StreamFlix</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 
 <body>
   <div class="header">
-    <nav class=" navbar navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/logo.PNG" height="200px" width="280px" />
@@ -44,60 +45,72 @@
                 aria-expanded="false">
                 GENRES
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
+              <ul class="dropdown-menu drop dropdown-menu-dark">
                 <li><a class="dropdown-item" href="#action">Action</a></li>
                 <li><a class="dropdown-item" href="#horror">Horror</a></li>
                 <li><a class="dropdown-item" href="#comedy">Comedy</a></li>
                 <li><a class="dropdown-item" href="#anime">Anime</a></li>
               </ul>
             </li>
-
           </ul>
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control transparent-input" placeholder="Search..." aria-label="Search">
+            <input type="search" class="form-control transparent-input" placeholder="Search..." aria-label="Search" />
           </form>
 
           <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">Login</button>
-            <button type="button" class=" signup_btn btn btn-info">Sign-up</button>
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="signup_btn btn btn-info">
+              Sign-up
+            </button>
           </div>
         </div>
       </div>
     </nav>
 
-    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item" data-bs-interval="10000">
-          <img src="images/peakpx.jpg" class="d-block w-100" alt="peaky blinders" height="800px" width="100%" />
-          <div class=" carousel_cap carousel-caption text-start">
+          <img src="images/peakpx.jpg" class="d-block w-100 cimg" alt="peaky blinders" height="800px" width="100%" />
+          <div class="carousel_cap carousel-caption text-start">
             <h1>Peaky Blinders</h1>
             <p>
-              A notorious gang in 1919 Birmingham, England,<br> is led by the fierce Tommy Shelby,
-              a crime boss set on moving up in the world no matter the cost.
+              A notorious gang in 1919 Birmingham, England,<br />
+              is led by the fierce Tommy Shelby, a crime boss set on moving up
+              in the world no matter the cost.
             </p>
-            <p><a class=" button btn btn-lg btn-info" href="#">Watch Now</a></p>
+            <p>
+              <a class="button btn btn-lg btn-info" href="#">Watch Now</a>
+            </p>
           </div>
         </div>
         <div class="carousel-item active" data-bs-interval="2000">
-          <img src="images/wed.jpg" class="d-block w-100" alt="wednesday" height="800px" width="100%" />
-          <div class=" carousel_cap carousel-caption text-start">
+          <img src="images/wed.jpg" class="d-block w-100 cimg" alt="wednesday" height="800px" width="100%" />
+          <div class="carousel_cap carousel-caption text-start">
             <h1>Wednesday</h1>
             <p>
-              Smart, sarcastic and a little dead inside,<br>
-              Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy.
+              Smart, sarcastic and a little dead inside,<br />
+              Wednesday Addams investigates a murder spree while making new
+              friends — and foes — at Nevermore Academy.
             </p>
-            <p><a class=" button btn btn-lg btn-info" href="#">Watch Now</a></p>
+            <p>
+              <a class="button btn btn-lg btn-info" href="#">Watch Now</a>
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/heist.jpg" class="d-block w-100" alt="money heist" height="800px" width="100%" />
-          <div class=" carousel_cap carousel-caption text-start">
+          <img src="images/heist.jpg" class="d-block w-100 cimg" alt="money heist" height="800px" width="100%" />
+          <div class="carousel_cap carousel-caption text-start">
             <h1>Money Heist</h1>
             <p>
-              Eight thieves take hostages and lock <br> themselves in the Royal Mint of Spain
-              as a criminal mastermind manipulates the police to carry out his plan.
+              Eight thieves take hostages and lock <br />
+              themselves in the Royal Mint of Spain as a criminal mastermind
+              manipulates the police to carry out his plan.
             </p>
-            <p><a class=" button btn btn-lg btn-info" href="#">Watch Now</a></p>
+            <p>
+              <a class="button btn btn-lg btn-info" href="#">Watch Now</a>
+            </p>
           </div>
         </div>
       </div>
@@ -114,140 +127,156 @@
     </div>
   </div>
 
-  <div class="popular">
-    <h2>Popular on StreamFlix</h2>
+  <div class="films">
+    <div class="popular">
+      <h2>Popular on StreamFlix</h2>
 
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/p1.jpeg" height="180px" width="300px"
-              placeholder="wednesday" />
-          </a>
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/p1.jpeg" height="180px" width="300px" placeholder="wednesday" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/p2.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/p3.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/p4.jpeg" height="180px" width="300px" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+
+    <div id="action" class="action">
+      <h2>Action</h2>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/ac1.jpeg" height="180px" width="300px" placeholder="wednesday" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/ac2.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/ac3.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/ac4.jpeg" height="180px" width="300px" /></a>
+          </div>
         </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/p2.jpeg" height="180px" width="300px" /></a>
+      </div>
+    </div>
+
+    <div id="horror" class="horror">
+      <h2>Horror</h2>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+          <div class="col">
+            <a href="...">
+              <img class="rounded" class="rounded" src="images/h1.jpeg" height="180px" width="300px"
+                placeholder="wednesday" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/h2.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/h3.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/h4.jpeg" height="180px" width="300px" /></a>
+          </div>
         </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/p3.jpeg" height="180px" width="300px" /></a>
+      </div>
+    </div>
+
+    <div id="comedy" class="comedy">
+      <h2>comedy</h2>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/c1.jpeg" height="180px" width="300px" placeholder="wednesday" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/c2.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/c3.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/c4.jpeg" height="180px" width="300px" /></a>
+          </div>
         </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/p4.jpeg" height="180px" width="300px" /></a>
+      </div>
+    </div>
+
+    <div id="anime" class="anime">
+      <h2>Anime</h2>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/a1.jpeg" height="180px" width="300px" placeholder="wednesday" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/a2.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/a3.jpeg" height="180px" width="300px" /></a>
+          </div>
+          <div class="col">
+            <a href="...">
+              <img class="rounded" src="images/a4.jpeg" height="180px" width="300px" /></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="action" class="action">
-    <h2>Action</h2>
 
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/ac1.jpeg" height="180px" width="300px"
-              placeholder="wednesday" />
-          </a>
-
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/ac2.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/ac3.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/ac4.jpeg" height="180px" width="300px" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="horror" class="horror">
-    <h2>Horror</h2>
-
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <a href="..."> <img class="rounded" class="rounded" src="images/h1.jpeg" height="180px" width="300px"
-              placeholder="wednesday" />
-          </a>
-
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/h2.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/h3.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/h4.jpeg" height="180px" width="300px" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="comedy" class="comedy">
-    <h2>comedy</h2>
-
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/c1.jpeg" height="180px" width="300px"
-              placeholder="wednesday" />
-          </a>
-
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/c2.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/c3.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/c4.jpeg" height="180px" width="300px" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="anime" class="anime">
-    <h2>Anime</h2>
-
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/a1.jpeg" height="180px" width="300px"
-              placeholder="wednesday" />
-          </a>
-
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/a2.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/a3.jpeg" height="180px" width="300px" /></a>
-        </div>
-        <div class="col">
-          <a href="..."> <img class="rounded" src="images/a4.jpeg" height="180px" width="300px" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-  <div class=" download">
-
+  <div class="download">
     <div class="downtext">
-      <h5>Download StreamFlix</h5>
-      <h2>Watch Anywhere</h2>
-      <h6>Install StreamFlix app for your device and enjoy high-quality movies and TV shows anywhere.</h6>
+      <h5 class="h5">Download StreamFlix</h5>
+      <h2 class="h2">Watch Anywhere</h2>
+      <h6>
+        Install StreamFlix app for your device and enjoy high-quality movies
+        and TV shows anywhere.
+      </h6>
     </div>
 
     <div class="downimg">
       <img class="img-fluid" src="images/crossplatform.PNG" height="500px" width="800px" />
     </div>
-  
   </div>
+
 
   <div class="container">
     <footer class="py-5">
@@ -255,63 +284,95 @@
         <div class="col-6 col-md-2 mb-3">
           <h5>Useful Links</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Team</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">StreamFlix</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">About</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">News</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Team</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">StreamFlix</a>
+            </li>
           </ul>
         </div>
-  
+
         <div class="col-6 col-md-2 mb-3">
           <h5>Categories</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#action" class="nav-link p-0 text-muted">Action</a></li>
-            <li class="nav-item mb-2"><a href="#horror" class="nav-link p-0 text-muted">Horror</a></li>
-            <li class="nav-item mb-2"><a href="#comedy" class="nav-link p-0 text-muted">Comedy</a></li>
-            <li class="nav-item mb-2"><a href="#anime" class="nav-link p-0 text-muted">Anime</a></li>
+            <li class="nav-item mb-2">
+              <a href="#action" class="nav-link p-0 text-muted">Action</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#horror" class="nav-link p-0 text-muted">Horror</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#comedy" class="nav-link p-0 text-muted">Comedy</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#anime" class="nav-link p-0 text-muted">Anime</a>
+            </li>
           </ul>
         </div>
-  
+
         <div class="col-6 col-md-2 mb-3">
           <h5>Get in Touch</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Customer Support</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Contact Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Customer Support</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+            </li>
           </ul>
         </div>
-  
+
         <div class="col-md-5 offset-md-1 mb-3">
           <form class="trail">
             <h5>Start for your first 30 days.</h5>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <p>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="sub btn " type="button">Subscribe</button>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+              <button class="sub btn" type="button">Subscribe</button>
             </div>
           </form>
         </div>
       </div>
-  
+
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p>© 2023 StreamFlix, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg></a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg></a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg></a>
+          </li>
         </ul>
       </div>
     </footer>
   </div>
+
   
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-
-
+  
 </body>
 
 </html>
